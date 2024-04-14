@@ -1,6 +1,0 @@
-package Tasks;
-public class Task2 {
-    public static void main(String[] args){
-        System.out.print("This\ncan be\"Done\"\nin one's\"Single Line\"");
-    }
-}
