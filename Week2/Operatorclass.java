@@ -22,7 +22,7 @@ public class Operatorclass {
         System.out.println("*=10 is " + (asNum*=10));
         System.out.println("/=10 is " + (asNum/=10));
         System.out.println("%=2 is " + (asNum%=2));
-    }
+    
 
     /*
         
@@ -37,6 +37,15 @@ public class Operatorclass {
 
 
     */
+
+    /* Unary Operator  */
+    int uNum1 = 10;
+
+    uNum1++; // changes value in next line
+    ++uNum1; // changes value in same line
+    System.out.println(uNum1);
     
 
+
+    }
 }
