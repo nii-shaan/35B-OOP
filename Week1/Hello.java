@@ -25,11 +25,9 @@ public class Hello {
         /*3. Write a program that prints the following output: */
         System.out.println("A \"quoted\" String is \n'much' better if you learn \nthe rules of\"escape sequences.\"\nAlso, \"\" represents an empty \nString. Don't forget: use\\\" instead of \" ! \n\"is not the same as");
 
-        // 4.
-        System.out.println("*\n**\n***\n****");
+        
 
-        // 5.
-        System.out.println("*********\n*********\n*********\n*********");
+    
 
 
         // 6.
