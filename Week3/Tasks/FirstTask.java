@@ -57,6 +57,7 @@ public class FirstTask {
          else{
             System.out.println("Error 404!");
          }
+         sc.close();
 
         
     }
