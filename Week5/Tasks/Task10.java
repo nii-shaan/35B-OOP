@@ -1,7 +1,7 @@
 package Tasks;
 
-import java.util.Arrays;
-import java.util.Scanner;
+
+// import java.util.Scanner;
 
 public class Task10 {
 
@@ -22,9 +22,9 @@ public class Task10 {
         // *Write a Java program to display all prime numbers less than a given number
         //* and count all the prime numbers less than that number using functions */
 
-        Scanner sc = new Scanner(System.in);
+        // Scanner sc = new Scanner(System.in);
         System.out.println("Enter range: ");
-        int range = sc.nextInt();
+        // int range = sc.nextInt();
 
 
     }

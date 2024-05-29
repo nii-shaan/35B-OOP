@@ -35,6 +35,7 @@ public class SwtichTask {
             System.out.println("Invalid Day!");
             break;
         }
+        sc.close();
 
 
 

@@ -19,6 +19,8 @@ public class Hcf {
             }
         }
         System.out.println("The hcf of given two number are: " + hcf);
+
+        sc.close();
     }
 
 }

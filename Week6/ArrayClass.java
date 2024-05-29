@@ -3,7 +3,7 @@ public class ArrayClass {
         /*
          * Array Declaration
          */
-        int[] myFirstArray;
+        // int[] myFirstArray;
 
         /*
          * Memory Allocation

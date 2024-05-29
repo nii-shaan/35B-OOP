@@ -15,6 +15,7 @@ public class GenerateWidth {
             }
             System.out.println("");
         }
+        sc.close();
 
     }
 

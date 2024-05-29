@@ -1,6 +1,4 @@
 package Tasks;
-
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class TenIntegers {

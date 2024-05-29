@@ -28,7 +28,8 @@ public class DoWhile {
                 cont = false;
             }
 
-        } while (cont = true);
+        } while (cont == true);
+        sc.close();
 
     }
 
