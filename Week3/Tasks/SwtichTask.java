@@ -1,3 +1,4 @@
+package Week3.Tasks;
 import java.util.Scanner;
 
 public class SwtichTask {

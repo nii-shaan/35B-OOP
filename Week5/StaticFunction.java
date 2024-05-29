@@ -54,6 +54,7 @@ public class StaticFunction {
         System.out.println("Enter a number to get its Square: ");
         double numToSquare = sc.nextDouble();
         System.out.println(makeSquare(numToSquare));
+        sc.close();
 
     }
 
