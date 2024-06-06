@@ -1,7 +1,7 @@
 package Tasks;
 
-
-// import java.util.Scanner;
+import java.util.Arrays;
+import java.util.Scanner;
 
 public class Task10 {
 
@@ -15,17 +15,47 @@ public class Task10 {
         return temp;
     }
 
-    // static int[]
+    static boolean isPrime(int n) {
+
+        if (n < 1) {
+            return false;
+        }
+
+        for (int i = 2; i < n; i++) {
+            if (n % i == 0) {
+                return false;
+            }
+        }
+        return true;
+
+    }
+
+    static void generatePrimeNumber(int range) {
+        if (range < 0) {
+            System.out.println("Invalid Range!");
+        } else {
+
+            int[] res = {};
+            for (int i = 2; i <= range; i++) {
+                if (isPrime(i)) {
+                    res = push(res, i);
+
+                }
+            }
+            System.out.println(Arrays.toString(res));
+            System.out.println("Total prime numbers: " + res.length);
+        }
+    }
 
     public static void main(String[] args) {
 
         // *Write a Java program to display all prime numbers less than a given number
-        //* and count all the prime numbers less than that number using functions */
+        // * and count all the prime numbers less than that number using function */
 
-        // Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("Enter range: ");
-        // int range = sc.nextInt();
-
+        int range = sc.nextInt();
+        generatePrimeNumber(range);
 
     }
 
