@@ -56,6 +56,7 @@ public class Task10 {
         System.out.println("Enter range: ");
         int range = sc.nextInt();
         generatePrimeNumber(range);
+        sc.close();
 
     }
 
