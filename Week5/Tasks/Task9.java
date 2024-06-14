@@ -16,6 +16,8 @@ public class Task9 {
         return res;
     }
 
+    
+
     public static void main(String[] args) {
         // * Write a Java program to find the greatest common divisor (GCD) of two
         // numbers.
