@@ -13,7 +13,11 @@ public class Qs3 {
 
         ShoppingCart s1 = new ShoppingCart();
         s1.addItem(1, "Fish", 1000);
-        s1.showCart();
+        s1.addItem(2, "Meow", 2000);
+        s1.showCart(); // Before
+        s1.removeItem(1);
+        s1.showCart(); // After
+        s1.calculateTotal();
 
     }
 }
@@ -29,11 +33,23 @@ class ShoppingCart {
     }
 
     void removeItem(int itemId) {
-        
+        for (int i = 0; i <= this.ItemsList.size() - 1; i++) {
+            if (ItemsList.get(i).itemId == itemId) {
+                // System.out.println("True");
+                // System.out.println(ItemsList.get(i));
+                System.out.println(this.ItemsList.get(i) + " => Item removed!");
+                this.ItemsList.remove(this.ItemsList.get(i));
+            }
+        }
 
     }
 
     void calculateTotal() {
+        double total = 0;
+        for (int i = 0; i <= this.ItemsList.size() - 1; i++) {
+            total += this.ItemsList.get(i).price;
+        }
+        System.out.println("Total amount: " + total);
 
     }
 
@@ -56,7 +72,6 @@ class Item {
 
     @Override
     public String toString() {
-
         return "{ itemId: " + this.itemId + ", name: " + this.name + ", price: " + this.price + " }";
     }
 }
