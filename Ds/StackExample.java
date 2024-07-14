@@ -20,7 +20,7 @@ class StackDataStructure {
     int top;
 
     StackDataStructure(int size) {
-        this.maxSize = maxSize;
+        this.maxSize = size;
         stack_arr = new int[this.maxSize];
         top = -1;
     }
